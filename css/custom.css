@@ -88,3 +88,10 @@ html {
 .corner-ribbon.red{background: #FA0042;}
 .corner-ribbon.orange{background: #e82;}
 .corner-ribbon.yellow{background: #ec0;}
+
+.ribbon-text{
+  margin: 0;
+  font-size: 22px; 
+  font-weight: 500;
+  padding-top: .7rem;
+}
