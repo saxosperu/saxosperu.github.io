@@ -95,3 +95,48 @@ html {
   font-weight: 500;
   padding-top: .7rem;
 }
+
+/*expand icon cover*/
+.cover:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background: #000000;
+  opacity: 0;
+  z-index: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.cover .icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 70px;
+  height: 70px;
+  content: '';
+  z-index: 1;
+  font-size: 20px;
+  background: #fff;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+  margin-top: -70px;
+  opacity: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.cover:hover:after {
+  opacity: .5; }
+.cover:hover .icon {
+  opacity: 1; }
