@@ -96,6 +96,61 @@ html {
   padding-top: .7rem;
 }
 
+.ribbon-sm-text{
+  margin: 0;
+  font-size: 11px;
+}
+
+.bar-ribbon{
+  /* width: 210px; */
+  /* height: 70px; */
+  /* background: #e43; */
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  text-align: center;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  padding-bottom: 5px;
+}
+
+.fb-ribbon{
+  width: 40px;
+  height: 40px;
+  /* background: #e43; */
+  position: absolute;
+  top: auto;
+  bottom: 50px;
+  right: 10px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.fb-btn{
+  font-size: 32px;
+  color: #fff;
+}
+
+.social-icon{
+  background-color: #F2F2F2;
+}
+
+.social-icon-ig{
+  background-color: #F2F2F2;
+  border-radius: 0.7rem !important;
+}
+
+.link-icon{
+  font-size: 40px;
+}
+
+.link-icon.blue{color: #0093E0;}
+.link-icon.red{color: #EB3836;}
+.link-icon.green{color: #29B200;}
+
 /*expand icon cover*/
 .cover:after {
   position: absolute;
